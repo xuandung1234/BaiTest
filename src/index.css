@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "PingFangSC-Light";
+    src: local("PingFangSC-Light"),
+        url("../fonts/PingFangSC-Light.woff2");
+}
+
+@font-face {
+    font-family: "PingFangSC-Medium";
+    src: local("PingFangSC-Medium"),
+        url("../fonts/PingFangSC-Medium.woff2");
+}
+
+@font-face {
+    font-family: "PingFangSC-Regular";
+    src: local("PingFangSC-Regular"),
+        url("../fonts/PingFangSC-Regular.woff2");
+}
+
+@font-face {
+    font-family: "PingFangSC-Semibold";
+    src: local("PingFangSC-Semibold"),
+        url("../fonts/PingFangSC-Semibold.woff2");
+}
+
+@font-face {
+    font-family: "PingFangSC-Thin";
+    src: local("PingFangSC-Thin"),
+        url("../fonts/PingFangSC-Thin.woff2");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: PingFangSC-Regular, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
